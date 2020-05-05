@@ -1,0 +1,19 @@
+{
+    "name": "intermachine-developers/php-rest-api",
+    "description": "PHP rest-api",
+    "license": "intermachine opensource",
+    "authors": [
+        {
+            "name": "julian cordoba",
+            "email": "dragon_4136@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
